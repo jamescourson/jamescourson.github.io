@@ -1,0 +1,32 @@
+{
+    "skills": {
+        "web": {
+            "frontend frameworks": [
+                "angular", "react", "vue"
+            ],
+            "rest apis": [
+                "fetch api", "axios"
+            ]
+        },
+        "application": {
+            "c#": {
+
+            },
+            "java": {
+
+            }
+        }
+    },
+    "experience": {
+
+    },
+    "education": {
+
+    },
+    "projects": {
+
+    },
+    "likes": [],
+    "dislikes": [],
+    "hobbies": []
+}
