@@ -1,0 +1,49 @@
+
+@import url("https://fonts.googleapis.com/css?family=Alata|Overpass+Mono:400,700&display=swap");
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #E4D4C4;
+  background-color: #343434;
+}
+* {
+  font-family: "Overpass Mono", monospace;
+}
+*::-moz-selection {
+  background-color: #E4D4C4;
+  color: #343434;
+}
+*::selection {
+  background-color: #E4D4C4;
+  color: #343434;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alata", sans-serif;
+}
+a {
+  color: #E4D4C4;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav-links a {
+  padding: 0 0.5em;
+  text-decoration: none;
+  transition: transform 0.05s ease-in-out;
+}
+.nav-links a:hover {
+  font-weight: bold;
+  transform: translateY(-2px);
+  margin-top: -2px;
+  border-bottom: 2px solid #E4D4C4;
+}
+.nav-links a a {
+  margin-right: 1em;
+}
+.nav-links a a:last-child {
+  margin-right: 0;
+}
